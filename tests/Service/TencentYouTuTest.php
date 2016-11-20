@@ -23,7 +23,7 @@ class TencentYouTuTest extends BaseTestCase
                 'code' => 400,
                 'message' => 'file test not exists',
                 'data' => [],
-            ]
+            ],
         ], $ret);
     }
 }
