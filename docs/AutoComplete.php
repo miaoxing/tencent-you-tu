@@ -1,6 +1,7 @@
 <?php
 
 namespace plugins\tencentYouTu\docs {
+
     /**
      * @property    \Miaoxing\TencentYouTu\Service\TencentYouTu $tencentYouTu 腾讯优图服务
      */
@@ -10,6 +11,7 @@ namespace plugins\tencentYouTu\docs {
 }
 
 namespace {
+
     /**
      * @return \plugins\tencentYouTu\docs\AutoComplete
      */
