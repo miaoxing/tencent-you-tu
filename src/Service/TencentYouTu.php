@@ -9,7 +9,7 @@ use TencentYoutuyun\Conf;
  * @method array fuzzydetect($image_path)
  * @method array fuzzydetecturl($url)
  */
-class TencentYouTu extends \miaoxing\plugin\BasePlugin
+class TencentYouTu extends \Miaoxing\Plugin\BasePlugin
 {
     use RetTrait;
 
