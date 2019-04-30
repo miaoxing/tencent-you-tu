@@ -2,6 +2,7 @@
 
 namespace Miaoxing\TencentYouTu\Service;
 
+use Miaoxing\Plugin\BaseService;
 use Wei\RetTrait;
 use TencentYoutuyun\Conf;
 
@@ -9,7 +10,7 @@ use TencentYoutuyun\Conf;
  * @method array fuzzydetect($image_path)
  * @method array fuzzydetecturl($url)
  */
-class TencentYouTu extends \Miaoxing\Plugin\BasePlugin
+class TencentYouTu extends BaseService
 {
     use RetTrait;
 
